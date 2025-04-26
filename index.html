@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs2@0.0.2/qrcode.min.js"></script>
+
+
+</head>
+
+<body class="bg-gray-200/50 w-[100vw] h-[100vh] flex items-center justify-center">
+    <div class="QRBox w-[90%] h-[75%] shadow-xl bg-blue-400/20 flex items-center justify-center rounded-lg">
+        <div
+            class="CodeContainer bg-white w-[200px] h-[65%] p-2 rounded-lg flex flex-col items-center justify-center shadow-lg">
+            <div class="QRCode bg-blue-600 h-[60%] w-[100%] rounded-lg flex items-center justify-center">
+                <div class="QR w-[60%] h-[60%]"></div>
+            </div>
+            <div class="Heading h-[20%] text-[12px] mx-1 font-bold align-center text-center flex items-center justify-center">Improve your
+                front-end skills by building projects</div>
+            <div class="textt text-gray-400 h-[20%] text-[10px] align-center text-center flex items-center justify-center">Scan the QR
+                code to visit Frontend Mentor and train your coding skills to the next level</div>
+        </div>
+    </div>
+
+    <script src="QRCode.js"></script>
+</body>
+
+</html>
